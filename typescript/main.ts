@@ -1,5 +1,8 @@
 let zmienna:string = 'cos';
 function test(a:string) {
+    console.log(a);
     return a
 }
-test('cos');
+const incl = test('cos');
+
+console.log('jaja');
